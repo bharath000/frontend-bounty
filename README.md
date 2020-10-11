@@ -1,3 +1,5 @@
+## Front-End of Food Donation Web App Using React
+
 ## Infrastructure
 React 16 <br>
 react-router-dom 5 <br>
@@ -8,10 +10,11 @@ validator 12.2.0 <br>
 
 
 ## Folder Structure
-Src: Contains Components Which are used to display data get from services in different components of Web App
-Src/Serives: Uses axios to Communicate with Rest Api's of Backend and Serve's data to and from Components.
+<b>Src</b>: Contains Components Which are used to display data get from services in different components of Web App.<br>
+<b>Src/Serives</b>: Uses axios to Communicate with Rest Api's of Backend and Serve's data to and from Components.<br>
 
- 
+### The Backend of the App.
+Link: https://github.com/bharath000/spring-boot-bounty-app
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
