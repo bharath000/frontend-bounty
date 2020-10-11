@@ -1,3 +1,17 @@
+## Infrastructure
+React 16 <br>
+react-router-dom 5 <br>
+axios 0.19.2 <br>
+react-validation 3.0.7 <br>
+Bootstrap 4 <br>
+validator 12.2.0 <br>
+
+
+## Folder Structure
+Src: Contains Components Which are used to display data get from services in different components of Web App
+Src/Serives: Uses axios to Communicate with Rest Api's of Backend and Serve's data to and from Components.
+
+ 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

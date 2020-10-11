@@ -14,6 +14,10 @@ import Volunter from "./components/Volunter";
 //import Restaurent from "./components/Restaurent"
 import Charity from "./components/Charity"
 import Restaurent from "./components/Restaurent"
+import OrderHistory from"./components/OrderHistory"
+import ResAccept from "./components/ResAccept";
+import Profile from "./components/Profile";
+
 const App = ()=> {
 
   const [showVolunter, setShowVolunter] = useState(false);
@@ -41,7 +45,7 @@ const App = ()=> {
   return (
     <Router>
       <div>
-        <nav className="navbar navbar-expand navbar-dark bg-dark">
+        <nav className="navbar navbar-expand navbar-dark ">
           <Link to={"/"} className="navbar-brand">
             Bounty
           </Link>
@@ -75,6 +79,7 @@ const App = ()=> {
                 </Link>
               </li>
             )}
+             
           </div>
 
           {currentUser ? (
@@ -115,6 +120,10 @@ const App = ()=> {
             <Route path="/volunter" component={Volunter} />
             <Route path="/restaurent" component={Restaurent}/>
             <Route path = "/charity" component={Charity} />
+            <Route path = "/orders" component={OrderHistory} />
+            <Route  path = "res/accept/ord" component={ResAccept} />
+            <Route path ="/profile" component={Profile} />
+            
            
           </Switch>
         </div>
